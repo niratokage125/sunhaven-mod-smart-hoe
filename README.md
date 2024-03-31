@@ -8,7 +8,7 @@ This mod disables hoeing animations that have no effect (e.g., hoeing the same s
 
 ## Options
 
-Do not Hoe Tiles : If enabled, floor tiles are no longer hoed by tools. (like Earthquake)
+Do Not Hoe Tiles : If enabled, floor tiles are no longer hoed by tools. (like Earthquake)
 
 ## How to Install
 

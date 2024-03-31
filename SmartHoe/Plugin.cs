@@ -20,7 +20,7 @@ namespace SmartHoe
         {
             logger = Logger;
             modEnabled = Config.Bind<bool>("General", "Mod Enabled", true, "Set to false to disable this mod.");
-            dontHoeTileEnabled = Config.Bind<bool>("General", "Do not Hoe Tiles", false, "If enabled, floor tiles are no longer hoed by tools. (like Earthquake)");
+            dontHoeTileEnabled = Config.Bind<bool>("General", "Do Not Hoe Tiles", false, "If enabled, floor tiles are no longer hoed by tools. (like Earthquake)");
             var harmony = new Harmony(PluginGuid);
             harmony.PatchAll(Assembly.GetExecutingAssembly());
             Logger.LogInfo($"Plugin {PluginGuid} v{PluginVer} is loaded");
