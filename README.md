@@ -9,6 +9,7 @@ This mod disables hoeing animations that have no effect (e.g., hoeing the same s
 ## Options
 
 Do Not Hoe Tiles : If enabled, floor tiles are no longer hoed by tools. (like Earthquake)
+Move Speed While Hoeing : Slow down move speed while swinging to avoid gaps.
 
 ## How to Install
 
