@@ -8,8 +8,13 @@ This mod disables hoeing animations that have no effect (e.g., hoeing the same s
 
 ## Options
 
-Do Not Hoe Tiles : If enabled, floor tiles are no longer hoed by tools. (like Earthquake)
-Move Speed While Hoeing : Slow down move speed while swinging to avoid gaps.
+- General
+	- Do Not Hoe Tiles : If enabled, floor tiles are no longer hoed by tools. (like Earthquake)
+	- Move Speed While Hoeing : Slow down move speed while swinging to avoid gaps.
+- Others
+	- Smart Pickaxe : This setting turns off the ineffective pickaxe swing animation.
+	- Smart Axe : This setting turns off the ineffective axe swing animation.
+	- Smart Hoe : This setting turns off the ineffective hoe swing animation.
 
 ## How to Install
 
