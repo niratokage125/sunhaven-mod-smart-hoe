@@ -12,6 +12,7 @@ namespace SmartHoe
     {
         public static ManualLogSource logger;
         public static ConfigEntry<bool> modEnabled;
+        public static ConfigEntry<bool> classicHoe;
         public static ConfigEntry<bool> dontHoeTileEnabled;
         public static ConfigEntry<Single> moveSpeedWhileHoeing;
         public static ConfigEntry<bool> pickaxeEnabled;
@@ -19,11 +20,12 @@ namespace SmartHoe
         public static ConfigEntry<bool> hoeEnabled;
         private const string PluginGuid = "niratokage125.sunhaven.SmartHoe";
         private const string PluginName = "SmartHoe";
-        private const string PluginVer = "1.0.2";
+        private const string PluginVer = "1.0.3";
         private void Awake()
         {
             logger = Logger;
             modEnabled = Config.Bind<bool>("General", "Mod Enabled", true, "Set to false to disable this mod.");
+            classicHoe = Config.Bind<bool>("General", "Classic Hoe", true, "If enabled, hoeing tile selection will be the same as in the base game 1.3.");
             dontHoeTileEnabled = Config.Bind<bool>("General", "Do Not Hoe Tiles", false, "If enabled, floor tiles are no longer hoed by tools. (like Earthquake)");
             moveSpeedWhileHoeing = Config.Bind<Single>("General", "Move Speed While Hoeing", 0.5f, new ConfigDescription("Description", new AcceptableValueRange<Single>(0.0001f, 1f)));
             pickaxeEnabled = Config.Bind<bool>("Others", "Smart Pickaxe", false, "This setting turns off the ineffective pickaxe swing animation.");
