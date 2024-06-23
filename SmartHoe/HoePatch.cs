@@ -28,7 +28,7 @@ namespace SmartHoe
             return true;
         }
 
-        [HarmonyPatch("LateUpdate"), HarmonyPrefix, HarmonyPriority(Priority.VeryLow)]
+        [HarmonyPatch("LateUpdate"), HarmonyPrefix, HarmonyPriority(Priority.VeryHigh)]
         public static bool LateUpdate_Prefix(Hoe __instance)
         {
             if (!Plugin.modEnabled.Value || !Plugin.hoeEnabled.Value || !Plugin.classicHoe.Value)

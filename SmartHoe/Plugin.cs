@@ -20,7 +20,7 @@ namespace SmartHoe
         public static ConfigEntry<bool> hoeEnabled;
         private const string PluginGuid = "niratokage125.sunhaven.SmartHoe";
         private const string PluginName = "SmartHoe";
-        private const string PluginVer = "1.0.3";
+        private const string PluginVer = "1.0.4";
         private void Awake()
         {
             logger = Logger;
